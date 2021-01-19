@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.btn{
+  background-color:#5a6968;
+}
+.btn:hover{
+  background-color:#037166;
+}
+nav{
+  background-color:#817084;
+}
+.gallery{
+width: 300px;
+margin: 0 auto;
+display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.gallery:after {
+  clear: both;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movielist{
+  display: inline-block;
+  
+}
+.movielist .card{
+  width:100%;
+  float: left;
+}
+.card .card-title{
+  font-size:14px;
+}
+.card .card-content{
+  padding: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card .card-action{
+  padding: 16px 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.goBack{
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  background-color: rgb(83, 70, 70);
+  font-size: 18px;
+  margin: 25px 46px;
+  color:#fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.detailImg{
+  width:70%;
+  text-align:center;
+  margin: auto;
+  
+}
+.detailImg img{
+
+    width:60%;
+  
+}
+
+.info-container{
+  width:70%;
+  margin: 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .info-container{
+    width:90% !important;
+    margin:auto !important;
   }
 }
