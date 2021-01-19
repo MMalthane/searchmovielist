@@ -1,6 +1,9 @@
 Description:
 Setup API key -API key access through env file.
 Create .env file add API key - REACT_APP_APIKEY=APIKEY
+
+Create .gitignore  /node module
+
 Search component - input term 
 MovieList component - list fo movies available
 Movie component - card layout to show movie image and veiw details link
